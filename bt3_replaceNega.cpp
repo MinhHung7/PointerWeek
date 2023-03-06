@@ -65,5 +65,9 @@ int main(){
     enterMatrix(row,column,p);
     replaceNega(row,column,p);
     showMatrix(row,column,p);
+    for(int i=0;i<row;++i){
+        delete[] p[i];
+    }
+    delete[]p;
     return 0;
 }
