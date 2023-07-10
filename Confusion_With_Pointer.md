@@ -72,4 +72,9 @@ int main ()
 ```
 Tạo một mảng gồm 50 con trỏ trỏ tới hàm **không tham số** và trả về kiểu dữ liệu **int**
 ### 6
+### 7
+```cpp
+```
+### 8
+
 
